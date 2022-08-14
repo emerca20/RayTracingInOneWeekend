@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v142:VCToolArchitecture=Native32Bit:VCToolsVersion=14.29.30133:TargetPlatformVersion=10.0.19041.0:
 Debug|x64|C:\Users\merca\source\repos\RayTracingInOneWeekend\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.31.31103:TargetPlatformVersion=10.0.19041.0:
+Debug|x64|E:\Users\eam03\source\repos\RayTracingInOneWeekend\|
+>>>>>>> 5077f82f18ae38f66cd31a7741031225accdb41e

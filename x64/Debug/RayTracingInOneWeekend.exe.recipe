@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\merca\source\repos\RayTracingInOneWeekend\x64\Debug\RayTracingInOneWeekend.exe</FullPath>
+=======
+      <FullPath>E:\Users\eam03\source\repos\RayTracingInOneWeekend\x64\Debug\RayTracingInOneWeekend.exe</FullPath>
+>>>>>>> 5077f82f18ae38f66cd31a7741031225accdb41e
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
