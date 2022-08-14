@@ -66,7 +66,7 @@ hittable_list random_scene() {
     world.add(make_shared<sphere>(point3(0.0, 1.0, 0.0), 1.0, material1));
     //world.add(make_shared<sphere>(point3(0.0, 1.0, 0.0), -0.9, material1)); //duplicated and flipped sphere to simulate a hollow sphere.
 
-    auto material2 = make_shared<lambertian>(color(0.4, 0.2, 0.1));
+    auto material2 = make_shared<lambertian>(color(0.4, 0.2, 0.1)); //421
     world.add(make_shared<sphere>(point3(-4.0, 1.0, 0.0), 1.0, material2));
 
     auto material3 = make_shared<metal>(color(0.7, 0.6, 0.5), 0.0);
@@ -81,7 +81,7 @@ int main() {
     const auto aspect_ratio = 16.0 / 9.0; //3.0 / 2.0
     const int image_width = 400; //1200
     const int image_height = static_cast<int>(image_width / aspect_ratio);
-    const int samples_per_pixel = 100; //500
+    const int samples_per_pixel = 2; //500
     const int max_depth = 50;
 
     // World
