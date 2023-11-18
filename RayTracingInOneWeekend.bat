@@ -1,5 +1,5 @@
 cd %~dp0
 
-.\Debug\RayTracingInOneWeekend.exe >> image.ppm
+.\x64\Debug\RayTracingInOneWeekend.exe >> image.ppm
 
 pause
